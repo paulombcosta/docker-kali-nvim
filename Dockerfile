@@ -1,6 +1,6 @@
 FROM kalilinux/kali-linux-docker
 
-RUN apt-get update && apt-get install -y software-properties-common python-software-properties \
+RUN apt-get update && apt-get install -y software-properties-common \
 python-dev python-pip python3-dev python3-pip python python-setuptools python-pip curl zsh git wget cmake \
 libtool libtool-bin autoconf automake cmake g++ pkg-config unzip libmsgpack-dev libuv-dev libluajit-5.1-dev \
 libncurses5-dev libgnomeui-dev libgtk2.0-dev libatk1.0-dev libbonoboui2-dev libxt-dev libxpm-dev libx11-dev ruby-dev 
